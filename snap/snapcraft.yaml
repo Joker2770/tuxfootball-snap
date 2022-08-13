@@ -57,15 +57,15 @@ layout:
   /usr/lib/$SNAPCRAFT_ARCH_TRIPLET/alsa-lib:
     bind: $SNAP/usr/lib/$SNAPCRAFT_ARCH_TRIPLET/alsa-lib
   /usr/local/doc:
-    bind: $SNAP/usr/local/doc
+    bind: $SNAP/doc
   /usr/local/share/appdata:
-    bind: $SNAP/usr/local/share/appdata
+    bind: $SNAP/share/appdata
   /usr/local/share/icons:
-    bind: $SNAP/usr/local/share/icons
+    bind: $SNAP/share/icons
   /usr/local/share/locale:
-    bind: $SNAP/usr/local/share/locale
+    bind: $SNAP/usr/share/locale
   /usr/local/share/tuxfootball:
-    bind: $SNAP/usr/local/share/tuxfootball
+    bind: $SNAP/share/tuxfootball
   /usr/share/alsa:
     bind: $SNAP/usr/share/alsa
   /etc/timidity:
