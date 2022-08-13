@@ -31,7 +31,7 @@ plugs: # plugs for theming, font settings, cursor and to use gtk3 file chooser
 apps:
   tux-football:
     command-chain: ["snap/command-chain/alsa-launch"]
-    command: usr/local/bin/tuxfootball
+    command: bin/tuxfootball
     environment:
       # pulseaudio
       LD_LIBRARY_PATH: ${SNAP}/usr/lib/$SNAPCRAFT_ARCH_TRIPLET/pulseaudio
