@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=0.3.1
+Encoding=UTF-8
+Name=Tux Football
+Comment=Tux Football, a fun arcade-style 2D football game for Windows and Linux, very reminsicent of Sensible Soccer and Kick Off.
+Exec=tux-football
+Terminal=false
+Type=Application
+Categories=Game
+Icon=${SNAP}/meta/gui/tuxfootball.png
