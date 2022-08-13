@@ -88,7 +88,7 @@ parts:
   tux-football:
     after: [alsa-mixin]
     plugin: cmake
-    source: "https://git.code.sf.net/p/tuxfootball/code tuxfootball-code"
+    source: "https://git.code.sf.net/p/tuxfootball/code"
     source-depth: 1
     source-branch: master
     source-type: git
