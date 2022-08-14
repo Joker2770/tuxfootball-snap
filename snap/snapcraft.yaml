@@ -52,8 +52,6 @@ apps:
       - gsettings
         
 layout:
-  /usr/share/midi/freepats:
-    bind: $SNAP/usr/share/midi/freepats
   /usr/lib/$SNAPCRAFT_ARCH_TRIPLET/alsa-lib:
     bind: $SNAP/usr/lib/$SNAPCRAFT_ARCH_TRIPLET/alsa-lib
   /usr/local/doc:
@@ -68,8 +66,6 @@ layout:
     bind: $SNAP/share/tuxfootball
   /usr/share/alsa:
     bind: $SNAP/usr/share/alsa
-  /etc/timidity:
-    bind: $SNAP/etc/timidity
   /etc/fonts:
     bind: $SNAP/etc/fonts
     
@@ -105,8 +101,4 @@ parts:
       - libsdl2-2.0-0
       - libsdl2-image-2.0-0
       - libsdl2-mixer-2.0-0
-      - freepats
-      - libmodplug1
-      - libopusfile0
       - libpulse0
-      - libsndfile1
